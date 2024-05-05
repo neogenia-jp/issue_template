@@ -1,2 +1,9 @@
 # issue_template
-git submodule for .github/ISSUE_TEMPLATE
+issue templates for github.
+
+## Usage
+
+```sh
+mkdir -p ${TARGET_PROJ_ROOT}/.github/
+cp -pr .github/ISSUE_TEMPLATE ${TARGET_PROJ_ROOT}/.github/
+```
